@@ -1,0 +1,13 @@
+input[type="radio"]{
+    /* content: ''; */
+    appearance: none;
+}
+label{
+    background-color: #d4e8d9;
+    padding: 4px 8px;
+    border-radius: 18px;
+}
+
+input:checked + label{
+    background-color:  #376b44;
+}
